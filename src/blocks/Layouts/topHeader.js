@@ -1,5 +1,5 @@
 
-function topHeader() {
+function TopHeader() {
     return (
         <div class="header-top ">
         <div class="container">
@@ -62,4 +62,4 @@ function topHeader() {
     );
   }
   
-  export default topHeader;
+  export default TopHeader;

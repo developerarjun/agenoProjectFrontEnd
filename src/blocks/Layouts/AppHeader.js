@@ -1,4 +1,4 @@
-function Header(){
+function AppHeader(){
     return (
         <div class="header-center ">
         <div class="container ">
@@ -63,4 +63,4 @@ function Header(){
 
     );
 }
-export default Header;
+export default AppHeader;

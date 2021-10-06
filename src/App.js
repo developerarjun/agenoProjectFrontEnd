@@ -1,17 +1,17 @@
 import './App.css';
-import AppFooter from './blocks/Layouts/Footer';
-import AppHeader from './blocks/Layouts/Header';
-import AppMenu from './blocks/Layouts/Menu';
-import AppTopHeader from './blocks/Layouts/topHeader';
-import AppMobileHeader from './blocks/MobileLayout/mobileHeader'; 
+import Footer from './blocks/Layouts/Footer';
+import AppHeader from './blocks/Layouts/AppHeader';
+import Menu from './blocks/Layouts/Menu';
+import TopHeader from './blocks/Layouts/TopHeader';
+import MobileHeader from './blocks/MobileLayout/MobileHeader'; 
 function App() {
   return (
-    <header class="header logo-content--left">
-      <AppMobileHeader></AppMobileHeader>
-      <AppTopHeader></AppTopHeader>
+    <header className="header logo-content--left">
+      <MobileHeader></MobileHeader>
+      <TopHeader></TopHeader>
       <AppHeader></AppHeader>
-      <AppMenu></AppMenu>
-      <AppFooter></AppFooter>
+      <Menu></Menu>
+      <Footer></Footer>
     </header>
   );
 }

@@ -1,5 +1,5 @@
 
-function mobileHeader() {
+function MobileHeader() {
     return (
       <div class="header-m-container">
 
@@ -999,4 +999,4 @@ Bonus page
     );
   }
   
-  export default mobileHeader;
+  export default MobileHeader;
